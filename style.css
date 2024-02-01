@@ -20,34 +20,51 @@
     width: 20%;
 }
 
+.col-30{
+    width: 30%;
+}
+
 .col-60{
     width: 60%;
 }
 
+.col-70{
+    width: 70%;
+}
+
 /* Debug */
-
-.debug .main-header{
-    background-color: #F1C5A8;
-}
-
-.debug .bg__lightviolet{
-    background-color: #D9B3CF;
-}
-
-.debug .bg__lightviolet .container .row{
-    justify-content: center;
-}
-
 .debug .col{
     min-height: 100px;
 }
 
 /* Stili Generali */
+
+.main-header{
+    background-color: #F1C5A8;
+}
 .col{
     text-align: center;
     border: 2px dotted black;
     background-color: #EDBACD;
 }
+
+.bg__lightviolet{
+    background-color: #D9B3CF;
+}
+
+.bg__lightviolet .container .row{
+    justify-content: center;
+}
+
+.bg__blue{
+    background-color: #A7BEDD;
+}
+
+.bg__green{
+    background-color: #ABD2C3;
+}
+
+
 
 
 

@@ -30,17 +30,24 @@
     padding: 20px;
 }
 
-.debug .row{
-    background-color: #EFB6A7;
-    padding: 10px;
+.debug .bg__lightviolet{
+    background-color: #D9B3CF;
+}
+
+.debug .bg__lightviolet .container .row{
+    justify-content: center;
+}
+
+.debug .col{
+    min-height: 100px;
 }
 
 /* Stili Generali */
 .col{
     text-align: center;
     border: 2px dotted black;
+    background-color: #EDBACD;
 }
-
 
 
 

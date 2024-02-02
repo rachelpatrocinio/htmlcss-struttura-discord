@@ -28,6 +28,11 @@ ul{
     flex-direction: row-reverse;
 }
 
+.align-center{
+    align-items: center;
+}
+
+
 /* Layout */
 
 .container{
@@ -145,21 +150,11 @@ ul{
     border-top: 2px solid #efefef;
 }
 
-.debug .footer-col-item-container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
 .debug .footer-col-item{
     padding: 2px;
     border: 1px solid black;
     width: 80px;
 }
-
-/* Stili Generali */
-
-
 
 
 

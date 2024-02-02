@@ -35,6 +35,11 @@ ul{
     margin: 0 auto;
 }
 
+.container-sm{
+    max-width: 500px;
+    margin: 0 auto;
+}
+
 .row{
     display: flex;
     padding: 20px;
@@ -89,6 +94,15 @@ ul{
 
 .debug .height-400{
     height: 400px;
+}
+
+.debug .hero{
+    padding: 20px;
+}
+
+.debug .hero .container-sm {
+	min-height: 400px;
+    padding: 20px;
 }
 
 .bg__orange{

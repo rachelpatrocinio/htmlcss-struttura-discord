@@ -4,6 +4,22 @@
     box-sizing: border-box;
 }
 
+menu,
+ol,
+ul{
+    list-style: none;
+}
+
+/* Utilities */
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.flex{
+    display: flex;
+}
+
 /* Layout */
 
 .container{
@@ -14,6 +30,7 @@
 .row{
     display: flex;
     padding: 20px;
+    flex-wrap: wrap;
 }
 
 .col-10{
@@ -83,6 +100,10 @@
     padding: 2px;
     border: 1px solid black;
     width: 80px;
+}
+
+.debug .main-menu{
+    gap: 10px;
 }
 
 /* Stili Generali */
